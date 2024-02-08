@@ -1,0 +1,35 @@
+.wrapperFilter {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ede9061e;
+    box-shadow: 5px 5px 9px -1px rgba(0, 0, 0, 0.47);
+    -webkit-box-shadow: 5px 5px 9px -1px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 5px 5px 9px -1px rgba(0, 0, 0, 0.47);
+    margin-bottom: 25px;
+}
+
+.label {
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.input {
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #0539f4;
+    padding: 5px;
+}
+
+.input:hover,
+.input:focus {
+    border: 2px solid #f7f706;
+}
+
